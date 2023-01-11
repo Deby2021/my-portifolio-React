@@ -50,7 +50,8 @@ p {
 }
 
 p span {
-  color: rgb(230, 88, 147);
+  color: rgb(228, 121, 165);
+  font-weight: 800;
 }
 
 .ImgContainer {

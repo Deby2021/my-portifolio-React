@@ -4,10 +4,12 @@ import ButtonDownlaod from "../../components/ButtonDownload/ButtonDownload";
 import curriculum from "../../assets/CurriculoDev.pdf";
 import { IoLogoLinkedin } from "react-icons/io5";
 import lappink from "../../assets/lappink.png";
+import GlobalStyle from "../../styles/GlobalStyle";
 
 const Home = () => {
   return (
     <>
+      <GlobalStyle />
       <div id="home" className="HomeContainer">
         <div className="Texts">
           <p className="hello">Olá, eu sou</p>

@@ -1,0 +1,57 @@
+.ContainerGeral {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  /*background-color: rgb(130, 0, 80, 50);*/
+  text-align: center;
+  padding: 2rem;
+}
+
+.ContainerGeral h1 {
+  color: white;
+  margin: 5rem;
+  font-size: 2rem;
+}
+
+.ContainerProj {
+  width: auto;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: transparent;
+}
+
+.Card {
+  width: 220px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(130, 0, 80, 50);
+  border-radius: 1rem;
+}
+
+.Card h3 {
+  color: white;
+}
+
+.Card a {
+  background-color: rgb(224, 114, 192);
+  padding: 0.3rem 0.8rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: all 0.1s ease-in-out;
+  transform: scale(0.9);
+  margin: 0.5rem;
+}
+
+a:hover {
+  transform: scale(1);
+}

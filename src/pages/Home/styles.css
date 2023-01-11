@@ -56,20 +56,25 @@
   }
 }
 
-.hello {
+.HomeContainer .hello {
   border-right: 2px solid transparent;
   color: #fffeff;
-  /*text-align: center;*/
+
+  padding-bottom: 0%;
   letter-spacing: 3px;
   white-space: nowrap;
   overflow: hidden;
-  animation: cursor 0.5s steps(40) infinite alternate,
-    typing 2s steps(40) infinite alternate;
+  animation: typing 10s steps(80) infinite alternate,
+    cursor 1.5s steps(80) infinite alternate;
 }
 
 @keyframes cursor {
-  25% {
-    border-color: transparent;
+  from {
+    width: 0%;
+  }
+  to {
+    width: 35%;
+    border-color: white;
   }
 }
 
@@ -82,7 +87,7 @@
   }
 }
 
-p {
+.HomeContainer p {
   color: #c4318e;
   text-align: left;
 
@@ -91,7 +96,7 @@ p {
   }
 }
 
-h1 {
+.HomeContainer h1 {
   color: #fffeff;
   font-size: 3rem;
   letter-spacing: 2px;

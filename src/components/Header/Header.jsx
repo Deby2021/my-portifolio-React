@@ -23,7 +23,7 @@ const Header = ({ ...props }) => {
           </li>
           <li>
             <GiStarsStack />
-            <a href={`#skills`}>{props.skills}</a>
+            <a href={"#skills"}>{props.skills}</a>
           </li>
           <li>
             <MdTextSnippet />
