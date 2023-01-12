@@ -16,7 +16,7 @@ const About = () => {
         </div>
         <div className="Abouts">
           <h1>Sobre mim:</h1>
-          <p>
+          <p className="pAbout">
             &nbsp;&nbsp;&nbsp;Olá meu nome é Débora e sou desenvolvedora web
             front end há 6 meses. Tenho experiência em{" "}
             <span>HTML, CSS, JavaScript </span>e a biblioteca <span>React</span>
