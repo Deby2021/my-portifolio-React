@@ -1,0 +1,76 @@
+.ContainerGeralForm {
+  width: 70%;
+  margin: 1rem auto;
+  height: 80vh;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(131, 53, 89, 0.37);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContainerGeralForm .title {
+  text-align: center;
+  color: white;
+  margin-top: 0%;
+  padding-bottom: 3rem;
+}
+
+.ContainerGeralForm .form {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  justify-content: center;
+}
+
+.inputForm {
+  padding: 1rem;
+  margin-bottom: 1.4rem;
+  border-radius: 10px;
+  color: rgb(170, 165, 165);
+  border: 2px solid rgba(255, 255, 255, 0.382);
+  font-size: 1rem;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.053),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.buttonForm {
+  /*height: 34px;*/
+  max-width: 1000px;
+  padding: 0.7rem 0.5rem;
+  border-radius: 10px;
+  background-image: url(../../assets/buttonback.gif);
+  /*background-color: #fff;*/
+  color: rgb(231, 8, 138);
+  font-size: 2rem;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+}
+
+.textarea {
+  padding: 4rem;
+  margin-bottom: 1.4rem;
+  border: 2px solid rgba(255, 255, 255, 0.382);
+  border-radius: 10px;
+  color: rgb(170, 165, 165);
+  font-size: 0.9rem;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.053),
+    rgba(255, 255, 255, 0)
+  );
+}
