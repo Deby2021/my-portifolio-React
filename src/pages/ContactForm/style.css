@@ -52,9 +52,8 @@
   max-width: 1000px;
   padding: 0.7rem 0.5rem;
   border-radius: 10px;
-  background-image: url(../../assets/buttonback.gif);
-  /*background-color: #fff;*/
-  color: rgb(231, 8, 138);
+  background-color: rgb(231, 8, 138);
+  color: #fff;
   font-size: 2rem;
   font-weight: 900;
   border: none;
