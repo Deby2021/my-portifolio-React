@@ -30,7 +30,7 @@ const Header = ({ ...props }) => {
     />
   );
 
-  const closeMobileMenu = () => setOpen(true);
+  //const closeMobileMenu = () => setOpen(true);
 
   return (
     <>
@@ -58,7 +58,7 @@ const Header = ({ ...props }) => {
           </li>
         </ul>
         {open ? closeIcon : hamburgerIcon}
-        {open && <MobileNavbar isMobile={false} closeMobileMenu={false} />}
+        {open && <MobileNavbar isMobile={false} />}
       </nav>
     </>
   );
