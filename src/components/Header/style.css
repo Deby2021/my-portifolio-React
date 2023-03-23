@@ -9,10 +9,6 @@
   /*backdrop-filter: blur(2px);*/
   padding: 1rem;
   z-index: 99999;
-
-  @media (max-width: 970px) {
-    display: none;
-  }
 }
 
 .List {
@@ -50,10 +46,6 @@ li:hover {
   color: white;
   padding: 5px;
   transition: all 0.2s ease-in-out;
-
-  @media (max-width: 970px) {
-    display: none;
-  }
 }
 a:hover {
   color: #ff0099;
@@ -63,4 +55,24 @@ a:hover {
   cursor: pointer;
   color: white;
   margin: 5px 5px;
+}
+
+.Hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 780px) {
+  .NavBarContainer .List {
+    display: none;
+  }
+
+  .Hamburger {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    border: none;
+    outline: none;
+    right: 25px;
+  }
 }
