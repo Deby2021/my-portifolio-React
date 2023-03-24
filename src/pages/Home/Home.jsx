@@ -18,6 +18,7 @@ const Home = () => {
           <div className="buttonInline">
             <div className="button">
               <ButtonDownlaod
+                className={"ButtonDownlaod"}
                 href={curriculum}
                 download={"CurriculoDEV"}
                 text="Download CV"
