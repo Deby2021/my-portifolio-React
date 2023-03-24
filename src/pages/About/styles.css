@@ -15,10 +15,6 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-
-  @media (max-width: 720px) {
-    flex-direction: column;
-  }
 }
 
 .Abouts {
@@ -29,10 +25,6 @@
   text-align: left;
   font-size: 1.3rem;
   width: 50%;
-
-  @media (max-width: 854px) {
-    font-size: 1rem;
-  }
 
   @media (max-width: 720px) {
     width: 100%;
@@ -58,14 +50,46 @@
   width: 320px;
   position: relative;
   border-radius: 50%;
-
-  @media (max-width: 720px) {
-    display: none;
-  }
 }
 
 .ImgContainer img {
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 780px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ImgContainer {
+    width: 200px;
+  }
+
+  .Abouts {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Info {
+    flex-direction: column;
+  }
+
+  .ImgContainer {
+    width: 100px;
+    margin-top: 8rem;
+  }
+
+  .Abouts h1 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .pAbout {
+    font-size: 1rem;
+  }
 }
