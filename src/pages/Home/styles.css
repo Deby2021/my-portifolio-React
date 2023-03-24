@@ -157,9 +157,6 @@ button {
   .HomeContainer .hello {
     margin-left: 0;
     font-size: 15px;
+    letter-spacing: 1.5\px;
   }
-  /*
-  .HomeContainer h1 {
-    font-size: 1.5rem;
-  }*/
 }
